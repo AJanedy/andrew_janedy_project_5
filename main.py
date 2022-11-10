@@ -31,8 +31,8 @@ def menu():
 def add(student_list):
     student_name = input("Please enter the name of the new student: ")
     student_ID = int(input(f"Enter the student ID of {student_name}: "))
-    student_credits = int(input(f"How many credits does {student_name} have: "))
-    student_GPA = float(input(f"What is {student_name}'s GPA: "))
+    student_credits = int(input(f"How many credits does {student_name} have?: "))
+    student_GPA = float(input(f"What is {student_name}'s GPA?: "))
     new_student = {
         'name': student_name,
         'id': student_ID,
